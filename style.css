@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 98.5vw;
+    height: 50vw;
+}
+
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+} 
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.strapline-container {
+    width: 90%;
+    height: 85%;
+    border: 2px solid black;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(images/image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-heading {
+    color: white;
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+
+}
+
+.second-heading {
+    color: antiquewhite;
+    font-size: 35px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+.about {
+    width: 98.5vw;
+    height: 50vw;
+}
+
+.about-container {
+    
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 45%;
+    color: darkred;
+    text-align: justify;
+    line-height: 150%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.right-box {
+    width: 50%;
+    margin-left: 6%;
+}
+
+.gird-image-one {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/pic1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gird-image-two {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gird-image-three {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/pic3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gird-image-four {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/pic4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-row, .bottom-row  {
+    display: flex;
+    flex-direction: row;
+}
+
+.click-section{
+    width: 98.5vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one, .row-two, .row-three {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.grid-item:hover {
+    opacity: 0.75;
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+#one {
+    background-image: url(./images/img1.jpeg);
+}
+
+#two {
+    background-image: url(./images/img2.jpeg);
+}
+
+#three {
+    background-image: url(./images/img3.jpeg);
+}
+
+#four {
+    background-image: url(./images/img4.jpeg);
+}
+
+#five {
+    background-image: url(./images/img5.jpg);
+}
+
+#six {
+    background-image: url(./images/img6.jpeg);
+}
+
+#seven {
+    background-image: url(./images/img7.jpeg);
+}
+
+#eight {
+    background-image: url(./images/img8.jpg);
+}
+
+#nine {
+    background-image: url(./images/img9.jpg);
+}
+
+.store-section{
+    width: 98.5vw;
+}
+
+.store-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: darkred;
+    letter-spacing: 0.8px;
+    line-height: 150%;
+}
+
+.store-div{
+    width: 30%;
+    height: 150px;
+    margin: 15px;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.contact-section{
+    width: 98.5vw;
+    height: 25vw;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+}
+
+.contact-title {
+    margin: 10px 0;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.email {
+    font-size: 140%;
+    margin: 10px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-media-div {
+    width: 15%;
+    margin: 20px auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-icon {
+    width: 30%;
+    height: 100%;
+    margin: 0 10px;
+}
+
+footer div div a:visited {
+    color: white;
+}
+
+footer div div a:active {
+    color: white;
+}
+
+footer div div a:link {
+    color: white;
+}
+
+footer div div a:hover {
+    color: black;
+}
